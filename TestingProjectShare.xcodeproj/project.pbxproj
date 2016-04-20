@@ -16,6 +16,7 @@
 		A79F242D1CC7CE8F0076BAFA /* TestingProjectShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F242C1CC7CE8F0076BAFA /* TestingProjectShareTests.swift */; };
 		A79F24381CC7CE900076BAFA /* TestingProjectShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F24371CC7CE900076BAFA /* TestingProjectShareUITests.swift */; };
 		A79F24471CC7CFF60076BAFA /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F24461CC7CFF60076BAFA /* Login.swift */; };
+		A79F244A1CC7D1BB0076BAFA /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F24491CC7D1BB0076BAFA /* Register.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A79F24371CC7CE900076BAFA /* TestingProjectShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingProjectShareUITests.swift; sourceTree = "<group>"; };
 		A79F24391CC7CE900076BAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A79F24461CC7CFF60076BAFA /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		A79F24491CC7D1BB0076BAFA /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		A79F24131CC7CE8F0076BAFA /* TestingProjectShare */ = {
 			isa = PBXGroup;
 			children = (
+				A79F24481CC7D1B00076BAFA /* Register */,
 				A79F24451CC7CFEB0076BAFA /* Login */,
 				A79F24141CC7CE8F0076BAFA /* AppDelegate.swift */,
 				A79F24161CC7CE8F0076BAFA /* ViewController.swift */,
@@ -137,6 +140,14 @@
 				A79F24461CC7CFF60076BAFA /* Login.swift */,
 			);
 			name = Login;
+			sourceTree = "<group>";
+		};
+		A79F24481CC7D1B00076BAFA /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				A79F24491CC7D1BB0076BAFA /* Register.swift */,
+			);
+			name = Register;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +285,7 @@
 				A79F24171CC7CE8F0076BAFA /* ViewController.swift in Sources */,
 				A79F24151CC7CE8F0076BAFA /* AppDelegate.swift in Sources */,
 				A79F24471CC7CFF60076BAFA /* Login.swift in Sources */,
+				A79F244A1CC7D1BB0076BAFA /* Register.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
