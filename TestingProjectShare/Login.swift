@@ -8,5 +8,6 @@
 
 
 class Login {
+    var test:String?
 
 }
