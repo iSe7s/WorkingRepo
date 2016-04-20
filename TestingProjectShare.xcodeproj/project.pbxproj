@@ -15,6 +15,7 @@
 		A79F24221CC7CE8F0076BAFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79F24201CC7CE8F0076BAFA /* LaunchScreen.storyboard */; };
 		A79F242D1CC7CE8F0076BAFA /* TestingProjectShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F242C1CC7CE8F0076BAFA /* TestingProjectShareTests.swift */; };
 		A79F24381CC7CE900076BAFA /* TestingProjectShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F24371CC7CE900076BAFA /* TestingProjectShareUITests.swift */; };
+		A79F24471CC7CFF60076BAFA /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F24461CC7CFF60076BAFA /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A79F24331CC7CE900076BAFA /* TestingProjectShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingProjectShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79F24371CC7CE900076BAFA /* TestingProjectShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingProjectShareUITests.swift; sourceTree = "<group>"; };
 		A79F24391CC7CE900076BAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79F24461CC7CFF60076BAFA /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		A79F24131CC7CE8F0076BAFA /* TestingProjectShare */ = {
 			isa = PBXGroup;
 			children = (
+				A79F24451CC7CFEB0076BAFA /* Login */,
 				A79F24141CC7CE8F0076BAFA /* AppDelegate.swift */,
 				A79F24161CC7CE8F0076BAFA /* ViewController.swift */,
 				A79F24181CC7CE8F0076BAFA /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				A79F24391CC7CE900076BAFA /* Info.plist */,
 			);
 			path = TestingProjectShareUITests;
+			sourceTree = "<group>";
+		};
+		A79F24451CC7CFEB0076BAFA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A79F24461CC7CFF60076BAFA /* Login.swift */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 				A79F241D1CC7CE8F0076BAFA /* TestingProjectShare.xcdatamodeld in Sources */,
 				A79F24171CC7CE8F0076BAFA /* ViewController.swift in Sources */,
 				A79F24151CC7CE8F0076BAFA /* AppDelegate.swift in Sources */,
+				A79F24471CC7CFF60076BAFA /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +498,7 @@
 				A79F243E1CC7CE900076BAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A79F243F1CC7CE900076BAFA /* Build configuration list for PBXNativeTarget "TestingProjectShareTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +507,7 @@
 				A79F24411CC7CE900076BAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A79F24421CC7CE900076BAFA /* Build configuration list for PBXNativeTarget "TestingProjectShareUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +516,7 @@
 				A79F24441CC7CE900076BAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
